@@ -7,9 +7,8 @@ let passportMarried = {
     }
 };
 
-let passportMarried2 = {...passportMarried, married: true}
-
-
+let passportMarried2 = { ...passportMarried, married: true };
 
 console.log(passportMarried);
 console.log(passportMarried2);
+console.log('Is married:', 'married' in passportMarried2);
