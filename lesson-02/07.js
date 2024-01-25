@@ -7,7 +7,7 @@ let passportMarried = {
     }
 };
 
-let passportMarried2 = {...passportMarried, married: true, address: {...passportMarried.address}}
+let passportMarried2 = {...passportMarried, married: true}
 
 
 
